@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="TDI Intro App">
+    <meta name="author" content="helenK">
+
+    <title>Stock Data</title>
+
+    <!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Custom CSS for navbar-->
+    <style>
+    body {
+      padding-top: 70px;
+    }
+    </style>
+  </head>
+<body>
+    <!-- navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-1">
+          <span class="sr-only">Toggle navigation</span>
+          </button>
+          <span class="navbar-brand">Stock Price Trend</span>
+        </div>
+      </div>
+    </nav>
+<!-- form -->
+    <div class="container">
+      <div class="row">
+
+          <div class="col-lg-12 text-left">
+          <form id='input' method='post' action='getInput'>
+
+              <p><strong>Please Enter Stock Ticker Symbol for Its Closing-Price Trend <input type='text' name='ticker' placeholder='aapl' /></strong></p>
+
+           <p><input type="submit" value="Submit"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
